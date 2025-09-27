@@ -1,28 +1,153 @@
 # index.html
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jaringan Cryven</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cryven Network – Community Powered Crypto</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
-      background: #0d1117;
-      color: white;
-      padding: 50px;
+      margin: 0; padding: 0;
+      background: #0a0a0a; color: #eee;
+      line-height: 1.6;
     }
-    h1 {
-      color: #58a6ff;
+    header {
+      background: linear-gradient(90deg,#4e54c8,#8f94fb);
+      padding: 30px 20px; text-align: center;
     }
-    p {
-      color: #c9d1d9;
+    header h1 { margin: 0; font-size: 2.5em; }
+    header p { margin-top: 8px; font-size: 1.2em; }
+    header .social-btns {
+      margin-top: 15px;
     }
+    header .social-btns a {
+      display: inline-block; margin: 0 8px;
+      padding: 10px 20px;
+      background: #fff; color: #4e54c8;
+      text-decoration: none; border-radius: 5px;
+    }
+    header .social-btns a:hover {
+      background: #f0f0f0;
+    }
+    section {
+      padding: 40px 20px; max-width: 900px; margin: auto;
+    }
+    h2 { color: #8f94fb; border-bottom: 2px solid #8f94fb; padding-bottom: 6px; }
+    ul { margin-left: 20px; }
+    table {
+      width: 100%; border-collapse: collapse; margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid #555; padding: 10px; text-align: left;
+    }
+    th { background: #222; color: #fff; }
+    footer {
+      text-align: center; padding: 20px;
+      background: #111; font-size: 0.9em; color: #aaa;
+    }
+    .btn {
+      display: inline-block; margin-top: 15px; padding: 10px 20px;
+      background: #8f94fb; color: #fff; text-decoration: none; border-radius: 5px;
+    }
+    .btn:hover { background: #4e54c8; }
   </style>
 </head>
 <body>
-  <h1>🚀 Selamat datang di Cryven Network</h1>
-  <p>Ini adalah penerapan situs web pertama kami di Vercel!</p>
+  <header>
+    <h1>Cryven Network</h1>
+    <p>Community-Powered Crypto Revolution 🚀</p>
+    <a class="btn" href="#whitepaper">Read Whitepaper</a>
+    <div class="social-btns">
+      <a href="https://t.me/cryven_network" target="_blank">Telegram</a>
+      <a href="https://www.tiktok.com/@cryven_network?_t=ZS-904B4ik4PnE&_r=1" target="_blank">TikTok</a>
+    </div>
+  </header>
+
+  <section id="intro">
+    <h2>1. Introduction</h2>
+    <p>
+      Cryven Network is a revolutionary crypto distribution project that starts from the community, for the community.
+      Born from the spirit of Bitcoin’s decentralization, Cryven stands not only as a token, but as a movement that ensures fairness, transparency, and growth.
+    </p>
+  </section>
+
+  <section id="vision">
+    <h2>2. Vision & Mission</h2>
+    <p><b>Vision:</b> To become the next-generation decentralized ecosystem where ownership, governance, and value truly belong to the community.</p>
+    <p><b>Mission:</b></p>
+    <ul>
+      <li>Democratize access to digital assets through fair airdrops.</li>
+      <li>Build a sustainable and community-driven ecosystem.</li>
+      <li>Implement DAO governance where every holder has a voice.</li>
+      <li>Apply Zero-Knowledge Proof (ZKP) for privacy and security.</li>
+      <li>Ensure long-term value through burning mechanisms.</li>
+      <li>Create a Proof of Activity (PoA) system rewarding only active members.</li>
+      <li>Evolve into a full blockchain (Cryven Chain) once the ecosystem matures.</li>
+    </ul>
+  </section>
+
+  <section id="tokenomics">
+    <h2>3. Tokenomics</h2>
+    <table>
+      <tr><th>Allocation</th><th>Percentage</th></tr>
+      <tr><td>Airdrop & Community Reward</td><td>40%</td></tr>
+      <tr><td>Liquidity & Exchange</td><td>20%</td></tr>
+      <tr><td>Development & Ecosystem</td><td>20%</td></tr>
+      <tr><td>Team (locked & vesting)</td><td>10%</td></tr>
+      <tr><td>Partnership & Marketing</td><td>10%</td></tr>
+    </table>
+    <p><b>Burning Mechanism:</b> A portion of fees is automatically burned. Buyback & burn events reduce circulating supply.</p>
+    <p><b>Proof of Activity (PoA):</b> Rewards distributed only to active users. Inactive wallets stop receiving rewards.</p>
+  </section>
+
+  <section id="utility">
+    <h2>4. Utility & Use Cases</h2>
+    <ul>
+      <li>Payments: CRY as a fast, low-fee payment method.</li>
+      <li>NFT Marketplace: Buy & sell digital assets with CRY.</li>
+      <li>DeFi: Staking, lending, borrowing.</li>
+      <li>GameFi & Metaverse: In-game currency and utilities.</li>
+      <li>Cross-Border Remittance: Low-cost, instant transfers.</li>
+    </ul>
+  </section>
+
+  <section id="value">
+    <h2>5. Value Proposition for Investors</h2>
+    <ul>
+      <li>Deflationary Token Model → Scarcity increases value.</li>
+      <li>Strong Community Base → Fair distribution = viral growth.</li>
+      <li>Advanced Security → ZKP-based privacy.</li>
+      <li>Active User Rewards → Only engaged members benefit, reducing sell pressure.</li>
+      <li>Long-Term Growth Plan → Transition into a native blockchain.</li>
+    </ul>
+  </section>
+
+  <section id="roadmap">
+    <h2>6. Roadmap</h2>
+    <table>
+      <tr><th>Phase</th><th>Details</th></tr>
+      <tr><td>Phase 1 – Foundation (Q4 2025)</td><td>Launch brand, website, token contract testnet, community building.</td></tr>
+      <tr><td>Phase 2 – Airdrop & Awareness (Q1 2026)</td><td>First global airdrop, referral campaigns, DEX listing.</td></tr>
+      <tr><td>Phase 3 – Ecosystem Build (Q2–Q3 2026)</td><td>Staking & rewards, dashboard + explorer, web3 partnerships.</td></tr>
+      <tr><td>Phase 4 – DAO & Governance (Q4 2026)</td><td>Cryven DAO launch, proposal & voting, transparency.</td></tr>
+      <tr><td>Phase 5 – Security & Value Upgrade (2027)</td><td>ZKP, burning mechanism, PoA reward, DeFi/NFT/payment apps, CEX listing.</td></tr>
+      <tr><td>Phase 6 – Cryven Chain Development (2028)</td><td>Testnet blockchain, PoA + ZKP, validator program.</td></tr>
+      <tr><td>Phase 7 – Mainnet Launch (2029)</td><td>Mainnet, token migration → native coin, DAO on-chain, Cryven Wallet & Pay rollout.</td></tr>
+    </table>
+  </section>
+
+  <section id="conclusion">
+    <h2>7. Conclusion</h2>
+    <p>
+      Cryven Network is not just another token. It is a community-powered revolution, starting from fair distribution and growing into a full blockchain ecosystem.  
+      With DAO, ZKP, Proof of Activity, and deflationary mechanisms, Cryven offers both utility and long-term value for its users and investors.  
+    </p>
+    <p><b>⚡ Cryven is the revolution. Be part of the next Bitcoin movement.</b></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Cryven Network | Built for the Community</p>
+  </footer>
 </body>
-</html>
+        </html>
